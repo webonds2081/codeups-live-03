@@ -1,0 +1,37 @@
+@use 'global' as *;
+
+.p-header {
+  height: rem(62);
+  background-color: #21054D;
+  z-index: 1000;
+}
+
+.p-header__inner {
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 rem(15);
+  @include mq(md){
+  padding: 0 rem(30);
+  }
+}
+
+.p-header__drawer {
+  @include mq(md){
+    display: none;
+  }
+}
+
+.p-header__pc-nav {
+  height: inherit;
+  display: none;
+  @include mq(md){
+    display: block;
+  }
+}
+
+
+.p-header__logoLink {
+  color: $white;
+}

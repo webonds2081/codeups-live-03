@@ -19,6 +19,7 @@ const destPath = {
 // ブラウザーシンク（リアルタイムでブラウザに反映させる処理）
 const browserSync = require("browser-sync");
 const browserSyncOption = {
+    notify: false,
     server: "./"
 }
 const browserSyncFunc = () => {
