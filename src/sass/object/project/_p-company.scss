@@ -1,0 +1,51 @@
+@use 'global' as *;
+
+.p-company {
+  padding-top: rem(32);
+  padding-bottom: rem(96);
+  background-image: url(../images/common/company-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: rem(-15) 0;
+}
+
+.p-company__contents {
+  margin-top: rem(30);
+}
+
+.p-company__subtitle {
+  text-align: center;
+  font-size: rem(32);
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  line-height: 1.5;
+}
+
+.p-company__yellow {
+  background: linear-gradient(
+    180deg,
+    transparent 0%,
+    transparent 75%,
+    #F5F534 75%,
+    #F5F534 90%,
+    transparent 90%,
+    transparent 100%
+    );
+}
+
+.p-company__content {
+  margin-top: rem(43);
+}
+
+.p-company__text {
+  text-align: center;
+  font-size: rem(14);
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  line-height: 1.79;
+}
+
+.p-company__btn {
+  text-align: center;
+  margin-top: rem(30);
+}
