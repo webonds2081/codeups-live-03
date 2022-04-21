@@ -23,10 +23,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Noto+Serif+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Noto+Sans+JP:wght@400;700&family=Noto+Serif+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
   <!-- css -->
   <link rel="stylesheet" href="./css/styles.css">
   <!-- JavaScript -->
   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
   <script defer src="./js/script.js"></script>
 </head>
 <body>
@@ -181,16 +184,52 @@
     </div>
   </section>
 
-    <section class="l-company p-company">
-      <div class="p-company__inner l-inner">
-        <div class="p-company__title c-section-header">
-          <h2 class="c-section-header__engtitle">COMPANY</h2>
-          <p class="c-section-header__jatitle">私たちについて</p>
+
+  <section class="l-works p-works">
+    <div class="p-works__inner l-inner">
+      <div class="p-works__cotnent">
+        <div class="p-works__images">
+          <div class="swiper js-works-swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide p-works__img">
+                <img src="./images/common/works_1.jpg" alt="">
+              </div>
+              <div class="swiper-slide p-works__img">
+                <img src="./images/common/service_1.jpg" alt="">
+              </div>
+              <div class="swiper-slide p-works__img">
+                <img src="./images/common/service_2.jpg" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination js-works-pagination"></div>
         </div>
-        <div class="p-company__contents">
-          <h3 class="p-company__subtitle"><span class="p-company__yellow">サイトのゴール =</span><br class="u-mobile"><span class="p-company__yellow">夢を叶えること</span></h3>
-          <div class="p-company__content">
-            <p class="p-company__text">
+        <div class="p-works__text-body">
+          <div class="p-works__title c-section-header">
+            <h2 class="c-section-header__engtitle">WORKS</h2>
+            <p class="c-section-header__jatitle">制作実績</p>
+          </div>
+          <div class="p-works__text-block">
+            <p class="p-works__text">様々なジャンルのWebサイト制作が可能です。<br>ご購入やお申込み数の増加などを実現します！</p>
+          </div>
+          <div class="p-works__btn">
+            <a href="#" class="c-button">more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="l-company p-company">
+    <div class="p-company__inner l-inner">
+      <div class="p-company__title c-section-header">
+        <h2 class="c-section-header__engtitle">COMPANY</h2>
+        <p class="c-section-header__jatitle">私たちについて</p>
+      </div>
+      <div class="p-company__contents">
+        <h3 class="p-company__subtitle"><span class="p-company__yellow">サイトのゴール =</span><br class="u-mobile"><span class="p-company__yellow">夢を叶えること</span></h3>
+        <div class="p-company__content">
+          <p class="p-company__text">
               お客様の夢を叶えること。<br>
               それがWebサイトのゴールであり、<br>
               私たちが目指すことです。<br>
@@ -199,19 +238,49 @@
               お客様の笑顔を見たい。<br>
               夢を実現する手助けをさせてください。
             </p>
-          </div>
-          <div class="p-company__btn">
-            <a href="#" class="c-button">more</a>
-          </div>
+        </div>
+        <div class="p-company__btn">
+          <a href="#" class="c-button">more</a>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
+  <section class="l-recruit p-recruit">
+    <div class="p-recruit__inner l-inner">
+      <div class="p-recruit__img">
+        <img src="./images/common/recruit_1.jpg" alt="">
+      </div>
+      <div class="p-recruit__contents">
+        <div class="p-recruit__title c-section-header">
+          <h2 class="c-section-header__engtitle">RECRUIT</h2>
+          <p class="c-section-header__jatitle">採用情報</p>
+        </div>
+        <div class="p-recruit__text-block">
+          <p class="p-recruit__text">私たちと一緒に働きませんか？</p>
+        </div>
+        <div class="p-recruit__btn">
+          <a href="#" class="c-button">more</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="l-contact p-contact">
+    <div class="p-contact__inner l-inner">
+      <div class="p-contact__title c-section-header">
+        <h2 class="c-section-header__engtitle">CONTACT</h2>
+        <p class="c-section-header__jatitle">お問い合わせ</p>
+      </div>
+      <div class="p-contact__contents">
+        <div class="p-contact__text-block">
+          <p class="p-contact__text">Webサイトの制作のご依頼やお見積りなど、<br>お気軽にご相談ください。</p>
+        </div>
+        <div class="p-contact__btn">
+          <a href="#" class="c-button">more</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <!-- <div class="c-section-header">
-    <h2 class="c-section-header__engtitle">contact</h2>
-    <p class="c-section-header__jatitle">お問い合わせ</p>
-  </div>
-  <a href="" class="c-button">more</a> -->
 
   <footer class="l-footer p-footer">
     <div class="p-footer__inner">
