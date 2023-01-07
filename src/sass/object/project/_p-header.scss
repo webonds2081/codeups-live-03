@@ -1,12 +1,13 @@
 @use 'global' as *;
 
 .p-header {
-  height: rem(62);
+  height: rem(64);
   background-color: transparent;
-  // background-color: #21054d;
+  background-color: #21054d;
   z-index: 1000;
   position: fixed;
   width: 100%;
+
 }
 
 .p-header__inner {

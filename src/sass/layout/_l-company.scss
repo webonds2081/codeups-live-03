@@ -2,4 +2,7 @@
 
 .l-company {
   margin-top: rem(50);
+  @include mq(md){
+    margin-top: rem(40);
+  }
 }

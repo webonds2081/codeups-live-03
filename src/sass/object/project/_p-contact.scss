@@ -3,6 +3,9 @@
 .p-contact {
   padding: rem(60) 0;
   background-color: #f7f7f7;
+  @include mq(md){
+    padding: rem(80) 0;
+  }
 }
 
 .p-contact__text-block {

@@ -4,6 +4,9 @@
   background-color: $bg-black;
   padding-top: rem(60);
   padding-bottom: rem(20);
+  @include mq(md){
+    padding: rem(60) 0;
+  }
 }
 
 .p-footer__inner {

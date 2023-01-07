@@ -2,6 +2,10 @@
 
 .p-recruit__inner.l-inner {
   padding: 0;
+  @include mq(md){
+    padding-left: rem(20);
+    padding-right: rem(20);
+  }
 }
 
 .p-recruit__text-block {
@@ -17,8 +21,24 @@
   line-height: 1.79;
 }
 
+.p-recruit__wrapper {
+  @include mq(md){
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+
+.p-recruit__contents {
+  @include mq(md){
+    width: 40%;
+  }
+}
+
 .p-recruit__img {
   position: relative;
+  @include mq(md){
+    width: 60%;
+  }
 }
 
 .p-recruit__img::before {

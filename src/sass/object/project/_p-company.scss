@@ -7,6 +7,17 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: rem(-15) 0;
+  @include mq(md){
+    background-image: url(../images/common/company-bg-pc.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    padding-top: rem(136);
+  }
+}
+
+.p-company__inner.inner {
+  max-width: rem(1300);
 }
 
 .p-company__contents {

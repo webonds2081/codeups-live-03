@@ -1,8 +1,8 @@
 @use 'global' as *;
 
-.l-topNews {
+.l-archive-home {
   margin-top: rem(40);
   @include mq(md){
-    margin-top: rem(70);
+    margin-top: rem(60);
   }
 }
