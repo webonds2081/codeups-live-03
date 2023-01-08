@@ -3,11 +3,14 @@
 .p-header {
   height: rem(64);
   background-color: transparent;
-  background-color: #21054d;
   z-index: 1000;
   position: fixed;
   width: 100%;
+  transition: 0.3s;
+}
 
+.p-header.is-color {
+  background-color: #21054d;
 }
 
 .p-header__inner {

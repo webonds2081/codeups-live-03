@@ -37,3 +37,12 @@
   @extend .c-section-header;
   color: #fff;
 }
+
+.c-section-header__subpage {
+  font-size: rem(24);
+  font-weight: bold;
+  line-height: 1.5;
+  @include mq(md){
+    font-size: rem(32);
+  }
+}
